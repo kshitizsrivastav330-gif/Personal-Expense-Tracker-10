@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 💰 Personal Expense Tracker
 
 A simple and professional web application that helps you track and manage daily expenses.  
@@ -15,28 +14,27 @@ This project uses **Spring Boot (Java)** for the backend and **HTML, CSS, JavaSc
    - **JDK 17+**
    - **Maven** or **Gradle**
 3. Open the terminal in the backend folder and run:
-   
+
    mvn spring-boot:run
 
-   Or 
+   Or
 
    Directly run ExpenseTrackerApplication.java from your IDE.
 
 4. The backend will start at:
-    
-    http://localhost:9090/api/expenses
-    
-    
+
+   http://localhost:9090/api/expenses
 
 ## ⚙️ How to Run
 
 ### 1️⃣ Clone or download this project
+
 ```bash
 git clone https://github.com/yourusername/expense-tracker.git
 =======
 
 
-🌐 Frontend (HTML, CSS, JS)
+### 🌐 Frontend (HTML, CSS, JS)
 
 Open the index.html file in the frontend folder.
 
@@ -47,7 +45,7 @@ const apiBaseUrl = "http://localhost:9090/api/expenses";
 
 Open index.html in your browser to start using the tracker.
 
-🌟 Features
+###🌟 Features 
 
 Add, view, update, and delete expenses
 
@@ -55,7 +53,7 @@ Responsive and modern UI
 
 Real-time connection between frontend and backend
 
-🧠 Design
+###🧠 Design
 
 The system follows a Client–Server Architecture.
 
@@ -77,7 +75,7 @@ Data Flow:
 
 User → Frontend (JS) → REST API (Spring Boot) → Database → Response → UI Update
 
-📋 Assumptions
+### 📋 Assumptions
 
 The user has Java JDK and Maven installed.
 
@@ -111,4 +109,4 @@ Output (Response)
 }
 
 # Personal-Expense-Tracker-10
->>>>>>> 5caeb2ed4221a687cfefba3d7c953db228a6f56b
+
