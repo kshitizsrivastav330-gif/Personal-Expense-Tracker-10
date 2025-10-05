@@ -1,0 +1,142 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #2575fc;
+}
+
+header p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Form Section */
+.form-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    gap: 15px;
+}
+
+.form-section input {
+    flex: 1 1 30%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.form-section input:focus {
+    border-color: #2575fc;
+    box-shadow: 0 0 5px rgba(37,117,252,0.5);
+    outline: none;
+}
+
+.form-section button {
+    padding: 12px 20px;
+    background-color: #2575fc;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.form-section button:hover {
+    background-color: #6a11cb;
+}
+
+/* Table Section */
+.table-section h2 {
+    margin-bottom: 15px;
+    color: #2575fc;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #2575fc;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Action Buttons */
+td button {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 0 3px;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+}
+
+td button.update {
+    background-color: #6a11cb;
+    color: white;
+}
+
+td button.update:hover {
+    background-color: #2575fc;
+}
+
+td button.delete {
+    background-color: #e74c3c;
+    color: white;
+}
+
+td button.delete:hover {
+    background-color: #c0392b;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .form-section input {
+        flex: 1 1 100%;
+    }
+    .form-section button {
+        width: 100%;
+    }
+}
